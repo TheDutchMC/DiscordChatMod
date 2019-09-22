@@ -22,7 +22,7 @@ public class DiscordChatMod {
 	public static final String MODNAME = "DiscordChatMod";
 	public static final String MODVERSION = "0.0.1";
 	
-	private final String TOKEN = "NDgxNTUxOTI1ODE3NjM4OTIz.XYEjXA.IG9GBVAiZtBcnpG4CGItUFO51nI";	
+	private final String TOKEN = "TOKEN HERE";	
 	private JDA jda;
 	DiscordBot db = new DiscordBot();
 	
