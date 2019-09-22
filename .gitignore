@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#project files
+.settings
+.classpath
+.gitattributes
+.project
+DiscordChatMod_Client.launch
+DiscordChatMod_Server.launch
