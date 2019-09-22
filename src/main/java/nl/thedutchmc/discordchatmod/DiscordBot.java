@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.FMLCommonHandler;
 
 public class DiscordBot implements EventListener {
 	
+	
 	@Override
 	public void onEvent(GenericEvent event) {
 		
@@ -18,7 +19,7 @@ public class DiscordBot implements EventListener {
 			String sender = ((MessageReceivedEvent) event).getAuthor().getName();
 			String content = ((MessageReceivedEvent) event).getMessage().getContentDisplay();
 			if(!(((MessageReceivedEvent) event).getAuthor().isBot())) {
-				if(((GenericMessageEvent) event).getChannel().getId().contentEquals("612364941713866840")) {
+				if(((GenericMessageEvent) event).getChannel().getId().contentEquals(DiscordChatMod.channelId)) {
 			        FMLCommonHandler.instance().getMinecraftServerInstance().getPlayerList().sendMessage(new TextComponentString(TextFormatting.BLUE + sender + TextFormatting.WHITE + ": " + content));
 				}
 			}
@@ -26,6 +27,6 @@ public class DiscordBot implements EventListener {
 	}
 	
 	public void sendToDiscord(String message, JDA jda) {
-		jda.getTextChannelById("612364941713866840").sendMessage(message).queue();
+		jda.getTextChannelById(DiscordChatMod.channelId).sendMessage(message).queue();
 	}
 }

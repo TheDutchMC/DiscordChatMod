@@ -10,6 +10,8 @@ import java.util.Set;
 
 import javax.security.auth.login.LoginException;
 
+import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.common.config.Property;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -22,7 +24,8 @@ public class DiscordChatMod {
 	public static final String MODNAME = "DiscordChatMod";
 	public static final String MODVERSION = "0.0.1";
 	
-	private final String TOKEN = "NDgxNTUxOTI1ODE3NjM4OTIz.XYEjXA.IG9GBVAiZtBcnpG4CGItUFO51nI";	
+	private static String token = "";
+	public static String channelId = "";
 	private JDA jda;
 	DiscordBot db = new DiscordBot();
 	
@@ -47,7 +50,6 @@ public class DiscordChatMod {
 		return db;
 	}
 	
-	
 	final CommonProxy commonProxy = new CommonProxy();
 	
 	@Mod.Instance
@@ -57,8 +59,13 @@ public class DiscordChatMod {
 	public void preInit(FMLPreInitializationEvent event) {
 		commonProxy.preInit(event);
 		
+		Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+		syncConfig(config);
+		
+		System.out.println("TOKEN: " + token);
+		System.out.println("CHANNELID: " + channelId);
 		try {
-			jda = new JDABuilder(TOKEN).build();
+			jda = new JDABuilder(token).build();
 		} catch (LoginException e) {
 			e.printStackTrace();
 		}
@@ -73,5 +80,24 @@ public class DiscordChatMod {
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 		commonProxy.postInit(event);
+	}
+	
+	public static void syncConfig(Configuration config) {
+		try {
+			config.load();
+			Property tokenProp = config.get(Configuration.CATEGORY_GENERAL, "token", "BOT TOKEN HERE");
+			Property channelIdProp = config.get(Configuration.CATEGORY_GENERAL, "channelId", "CHANNEL ID HERE");
+			
+			token = tokenProp.getString(); 
+			channelId = channelIdProp.getString();
+			
+					
+		} catch (Exception e) {
+
+		} finally {
+			if(config.hasChanged()) {
+				config.save();
+			}
+		}
 	}
 }
