@@ -2,106 +2,8 @@ Unsupposrted library path: C:\Users\tobia\.gradle\caches\modules-2\files-2.1\clu
 Unsupposrted library path: A:\Files\Eclipse\workspace\DiscordChatMod\build\classes\api
 Unsupposrted library path: A:\Files\Eclipse\workspace\DiscordChatMod\build\resources\api
 Symbol range map extraction starting
-Processing 6 files
-startProcessing "nl/thedutchmc/discordchatmod/CommonProxy.java" md5: df6a80bc649f3fa8202c009306dadc5d
-@|nl/thedutchmc/discordchatmod/CommonProxy.java|8|36|nl.thedutchmc.discordchatmod|package|nl.thedutchmc.discordchatmod|(file)
-Class Start: nl.thedutchmc.discordchatmod.CommonProxy
-   @|nl/thedutchmc/discordchatmod/CommonProxy.java|481|503|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
-   @|nl/thedutchmc/discordchatmod/CommonProxy.java|518|529|CommonProxy|class|nl.thedutchmc.discordchatmod.CommonProxy|false
-   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|579|584|event|param|nl.thedutchmc.discordchatmod.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|551|555|init|method|nl.thedutchmc.discordchatmod.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|556|578|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
-   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|650|655|event|param|nl.thedutchmc.discordchatmod.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|614|622|postInit|method|nl.thedutchmc.discordchatmod.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|623|649|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
-   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-   Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|758|763|event|param|nl.thedutchmc.discordchatmod.CommonProxy|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|674|688|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|713|727|registerBlocks|method|nl.thedutchmc.discordchatmod.CommonProxy|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|728|750|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|751|756|Block|class|net.minecraft.block.Block|false
-   Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
-   Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|864|869|event|param|nl.thedutchmc.discordchatmod.CommonProxy|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|782|796|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|821|834|registerItems|method|nl.thedutchmc.discordchatmod.CommonProxy|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|835|857|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|858|862|Item|class|net.minecraft.item.Item|false
-   Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
-   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|930|935|event|param|nl.thedutchmc.discordchatmod.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|896|903|preInit|method|nl.thedutchmc.discordchatmod.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/CommonProxy.java|904|929|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
-   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-Class End  : nl.thedutchmc.discordchatmod.CommonProxy
-endProcessing "nl/thedutchmc/discordchatmod/CommonProxy.java"
-
-startProcessing "nl/thedutchmc/discordchatmod/DiscordBot.java" md5: dc974b760fd390a3602fa91c92f2d765
-@|nl/thedutchmc/discordchatmod/DiscordBot.java|8|36|nl.thedutchmc.discordchatmod|package|nl.thedutchmc.discordchatmod|(file)
-Class Start: nl.thedutchmc.discordchatmod.DiscordBot
-   @|nl/thedutchmc/discordchatmod/DiscordBot.java|473|483|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/DiscordBot.java|495|508|EventListener|class|net.dv8tion.jda.api.hooks.EventListener|false
-   Method Start: onEvent(Lnet/dv8tion/jda/api/events/GenericEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|564|569|event|param|nl.thedutchmc.discordchatmod.DiscordBot|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|520|528|Override|class|java.lang.Override|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|543|550|onEvent|method|net.dv8tion.jda.api.hooks.EventListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|551|563|GenericEvent|class|net.dv8tion.jda.api.events.GenericEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|583|588|event|param|nl.thedutchmc.discordchatmod.DiscordBot|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|600|620|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|628|634|String|class|java.lang.String|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|646|666|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|668|673|event|param|nl.thedutchmc.discordchatmod.DiscordBot|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|675|684|getAuthor|method|net.dv8tion.jda.api.events.message.MessageReceivedEvent|getAuthor|()Lnet/dv8tion/jda/api/entities/User;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|687|694|getName|method|net.dv8tion.jda.api.entities.User|getName|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|702|708|String|class|java.lang.String|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|721|741|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|743|748|event|param|nl.thedutchmc.discordchatmod.DiscordBot|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|750|760|getMessage|method|net.dv8tion.jda.api.events.message.MessageReceivedEvent|getMessage|()Lnet/dv8tion/jda/api/entities/Message;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|763|780|getContentDisplay|method|net.dv8tion.jda.api.entities.Message|getContentDisplay|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|795|815|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|817|822|event|param|nl.thedutchmc.discordchatmod.DiscordBot|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|824|833|getAuthor|method|net.dv8tion.jda.api.events.message.MessageReceivedEvent|getAuthor|()Lnet/dv8tion/jda/api/entities/User;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|836|841|isBot|method|net.dv8tion.jda.api.entities.User|isBot|()Z
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|858|877|GenericMessageEvent|class|net.dv8tion.jda.api.events.message.GenericMessageEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|879|884|event|param|nl.thedutchmc.discordchatmod.DiscordBot|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|886|896|getChannel|method|net.dv8tion.jda.api.events.message.GenericMessageEvent|getChannel|()Lnet/dv8tion/jda/api/entities/MessageChannel;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|899|904|getId|method|net.dv8tion.jda.api.entities.ISnowflake|getId|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|907|920|contentEquals|method|java.lang.String|contentEquals|(Ljava/lang/CharSequence;)Z
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|921|935|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|936|945|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|962|978|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|979|987|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|990|1016|getMinecraftServerInstance|method|net.minecraftforge.fml.common.FMLCommonHandler|getMinecraftServerInstance|()Lnet/minecraft/server/MinecraftServer;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1019|1032|getPlayerList|method|net.minecraft.server.MinecraftServer|getPlayerList|()Lnet/minecraft/server/management/PlayerList;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1035|1046|sendMessage|method|net.minecraft.server.management.PlayerList|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1051|1070|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1071|1085|TextFormatting|class|net.minecraft.util.text.TextFormatting|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1086|1090|BLUE|field|net.minecraft.util.text.TextFormatting|BLUE
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1102|1116|TextFormatting|class|net.minecraft.util.text.TextFormatting|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1117|1122|WHITE|field|net.minecraft.util.text.TextFormatting|WHITE
-   Method End: onEvent(Lnet/dv8tion/jda/api/events/GenericEvent;)V
-   Method Start: sendToDiscord(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1203|1210|message|param|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V|message|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1216|1219|jda|param|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V|jda|1
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1182|1195|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1196|1202|String|class|java.lang.String|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1212|1215|JDA|class|net.dv8tion.jda.api.JDA|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1226|1229|jda|param|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V|jda|1
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1230|1248|getTextChannelById|method|net.dv8tion.jda.api.JDA|getTextChannelById|(Ljava/lang/String;)Lnet/dv8tion/jda/api/entities/TextChannel;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1249|1263|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1264|1273|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1275|1286|sendMessage|method|net.dv8tion.jda.api.entities.MessageChannel|sendMessage|(Ljava/lang/CharSequence;)Lnet/dv8tion/jda/api/requests/restaction/MessageAction;
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1287|1294|message|param|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V|message|0
-      @|nl/thedutchmc/discordchatmod/DiscordBot.java|1296|1301|queue|method|net.dv8tion.jda.api.requests.RestAction|queue|()V
-   Method End: sendToDiscord(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V
-Class End  : nl.thedutchmc.discordchatmod.DiscordBot
-endProcessing "nl/thedutchmc/discordchatmod/DiscordBot.java"
-
-startProcessing "nl/thedutchmc/discordchatmod/DiscordChatMod.java" md5: 2d5e6d4de704ab62a6f6bc53c9f45fb4
+Processing 5 files
+startProcessing "nl/thedutchmc/discordchatmod/DiscordChatMod.java" md5: 94f5040a56cc8017ab33dd3522538d79
 @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|8|36|nl.thedutchmc.discordchatmod|package|nl.thedutchmc.discordchatmod|(file)
 Class Start: nl.thedutchmc.discordchatmod.DiscordChatMod
    @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|689|692|Mod|class|net.minecraftforge.fml.common.Mod|false
@@ -131,235 +33,331 @@ Class Start: nl.thedutchmc.discordchatmod.DiscordChatMod
    @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1074|1080|String|class|java.lang.String|false
    @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1074|1080|String|class|java.lang.String|false
    @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1081|1090|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId|
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1107|1110|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1107|1110|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1111|1114|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda|
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1118|1128|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1118|1128|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1129|1131|db|field|nl.thedutchmc.discordchatmod.DiscordChatMod|db|
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1138|1148|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1113|1119|String|class|java.lang.String|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1113|1119|String|class|java.lang.String|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1120|1138|whitelistChannelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|whitelistChannelId|
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1155|1158|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1155|1158|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1159|1162|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda|
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1166|1181|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1166|1181|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1182|1184|dl|field|nl.thedutchmc.discordchatmod.DiscordChatMod|dl|
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1191|1206|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1235|1253|enableWhitelisting|field|nl.thedutchmc.discordchatmod.DiscordChatMod|enableWhitelisting|
    Method Start: DiscordChatMod()V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1164|1178|DiscordChatMod|method|nl.thedutchmc.discordchatmod.DiscordChatMod|DiscordChatMod|()V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1188|1208|NoSuchFieldException|class|java.lang.NoSuchFieldException|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1210|1232|IllegalAccessException|class|java.lang.IllegalAccessException|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1238|1243|Field|class|java.lang.reflect.Field|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1252|1269|LaunchClassLoader|class|net.minecraft.launchwrapper.LaunchClassLoader|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1276|1292|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1328|1341|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1353|1369|SuppressWarnings|class|java.lang.SuppressWarnings|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1386|1389|Set|class|java.util.Set|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1390|1396|String|class|java.lang.String|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1412|1415|Set|class|java.util.Set|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1416|1422|String|class|java.lang.String|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1431|1434|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1435|1441|Launch|class|net.minecraft.launchwrapper.Launch|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1442|1453|classLoader|field|net.minecraft.launchwrapper.Launch|classLoader
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1470|1476|remove|method|java.util.Collection|remove|(Ljava/lang/Object;)Z
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1515|1518|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1563|1566|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1614|1617|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1659|1662|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1709|1712|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1275|1289|DiscordChatMod|method|nl.thedutchmc.discordchatmod.DiscordChatMod|DiscordChatMod|()V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1299|1319|NoSuchFieldException|class|java.lang.NoSuchFieldException|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1321|1343|IllegalAccessException|class|java.lang.IllegalAccessException|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1349|1354|Field|class|java.lang.reflect.Field|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1363|1380|LaunchClassLoader|class|net.minecraft.launchwrapper.LaunchClassLoader|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1387|1403|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1439|1452|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1464|1480|SuppressWarnings|class|java.lang.SuppressWarnings|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1497|1500|Set|class|java.util.Set|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1501|1507|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1523|1526|Set|class|java.util.Set|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1527|1533|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1542|1545|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1546|1552|Launch|class|net.minecraft.launchwrapper.Launch|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1553|1564|classLoader|field|net.minecraft.launchwrapper.Launch|classLoader
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1581|1587|remove|method|java.util.Collection|remove|(Ljava/lang/Object;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1626|1629|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1674|1677|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1725|1728|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1770|1773|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1820|1823|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
    Method End: DiscordChatMod()V
    Method Start: getJda()Lnet/dv8tion/jda/api/JDA;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1759|1762|JDA|class|net.dv8tion.jda.api.JDA|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1763|1769|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1784|1787|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1870|1873|JDA|class|net.dv8tion.jda.api.JDA|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1874|1880|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1895|1898|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda
    Method End: getJda()Lnet/dv8tion/jda/api/JDA;
-   Method Start: getDb()Lnl/thedutchmc/discordchatmod/DiscordBot;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1805|1815|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1816|1821|getDb|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDb|()Lnl/thedutchmc/discordchatmod/DiscordBot;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1836|1838|db|field|nl.thedutchmc.discordchatmod.DiscordChatMod|db
-   Method End: getDb()Lnl/thedutchmc/discordchatmod/DiscordBot;
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1855|1866|CommonProxy|class|nl.thedutchmc.discordchatmod.CommonProxy|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1855|1866|CommonProxy|class|nl.thedutchmc.discordchatmod.CommonProxy|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1867|1878|commonProxy|field|nl.thedutchmc.discordchatmod.DiscordChatMod|commonProxy|
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1885|1896|CommonProxy|class|nl.thedutchmc.discordchatmod.CommonProxy|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1935|1949|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1906|1918|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1935|1949|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1950|1958|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance|
+   Method Start: getDl()Lnl/thedutchmc/discordchatmod/DiscordListener;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1916|1931|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1932|1937|getDl|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDl|()Lnl/thedutchmc/discordchatmod/DiscordListener;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1952|1954|dl|field|nl.thedutchmc.discordchatmod.DiscordChatMod|dl
+   Method End: getDl()Lnl/thedutchmc/discordchatmod/DiscordListener;
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1996|2010|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1967|1979|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1996|2010|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2011|2019|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2031|2036|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1966|1982|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|1997|2004|preInit|method|nl.thedutchmc.discordchatmod.DiscordChatMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2005|2030|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2043|2054|commonProxy|field|nl.thedutchmc.discordchatmod.DiscordChatMod|commonProxy
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2055|2062|preInit|method|nl.thedutchmc.discordchatmod.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2063|2068|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2078|2091|Configuration|class|net.minecraftforge.common.config.Configuration|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2105|2118|Configuration|class|net.minecraftforge.common.config.Configuration|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2119|2124|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2125|2154|getSuggestedConfigurationFile|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getSuggestedConfigurationFile|()Ljava/io/File;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2162|2172|syncConfig|method|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2189|2195|System|class|java.lang.System|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2196|2199|out|field|java.lang.System|out
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2200|2207|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2220|2225|token|field|nl.thedutchmc.discordchatmod.DiscordChatMod|token
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2231|2237|System|class|java.lang.System|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2238|2241|out|field|java.lang.System|out
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2242|2249|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2266|2275|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2291|2294|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2301|2311|JDABuilder|class|net.dv8tion.jda.api.JDABuilder|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2312|2317|token|field|nl.thedutchmc.discordchatmod.DiscordChatMod|token
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2319|2324|build|method|net.dv8tion.jda.api.JDABuilder|build|()Lnet/dv8tion/jda/api/JDA;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2340|2354|LoginException|class|javax.security.auth.login.LoginException|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2366|2381|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2393|2396|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2397|2413|addEventListener|method|net.dv8tion.jda.api.JDA|addEventListener|([Ljava/lang/Object;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2414|2416|db|field|nl.thedutchmc.discordchatmod.DiscordChatMod|db
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2092|2097|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2027|2043|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2058|2065|preInit|method|nl.thedutchmc.discordchatmod.DiscordChatMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2066|2091|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2108|2121|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2135|2148|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2149|2154|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2155|2184|getSuggestedConfigurationFile|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getSuggestedConfigurationFile|()Ljava/io/File;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2192|2202|syncConfig|method|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2225|2228|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2235|2245|JDABuilder|class|net.dv8tion.jda.api.JDABuilder|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2246|2251|token|field|nl.thedutchmc.discordchatmod.DiscordChatMod|token
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2253|2258|build|method|net.dv8tion.jda.api.JDABuilder|build|()Lnet/dv8tion/jda/api/JDA;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2274|2288|LoginException|class|javax.security.auth.login.LoginException|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2300|2315|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2327|2330|jda|field|nl.thedutchmc.discordchatmod.DiscordChatMod|jda
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2331|2347|addEventListener|method|net.dv8tion.jda.api.JDA|addEventListener|([Ljava/lang/Object;)V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2348|2350|dl|field|nl.thedutchmc.discordchatmod.DiscordChatMod|dl
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2488|2493|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2429|2445|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2460|2464|init|method|nl.thedutchmc.discordchatmod.DiscordChatMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2465|2487|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2500|2511|commonProxy|field|nl.thedutchmc.discordchatmod.DiscordChatMod|commonProxy
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2512|2516|init|method|nl.thedutchmc.discordchatmod.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2517|2522|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2422|2427|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2363|2379|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2394|2398|init|method|nl.thedutchmc.discordchatmod.DiscordChatMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2399|2421|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2602|2607|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2535|2551|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2566|2574|postInit|method|nl.thedutchmc.discordchatmod.DiscordChatMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2575|2601|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2614|2625|commonProxy|field|nl.thedutchmc.discordchatmod.DiscordChatMod|commonProxy
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2626|2634|postInit|method|nl.thedutchmc.discordchatmod.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2635|2640|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2508|2513|event|param|nl.thedutchmc.discordchatmod.DiscordChatMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2441|2457|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2472|2480|postInit|method|nl.thedutchmc.discordchatmod.DiscordChatMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2481|2507|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
    Method Start: syncConfig(Lnet/minecraftforge/common/config/Configuration;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2696|2702|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2671|2681|syncConfig|method|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2682|2695|Configuration|class|net.minecraftforge.common.config.Configuration|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2719|2725|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2726|2730|load|method|net.minecraftforge.common.config.Configuration|load|()V
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2738|2746|Property|class|net.minecraftforge.common.config.Property|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2759|2765|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2766|2769|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2770|2783|Configuration|class|net.minecraftforge.common.config.Configuration|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2784|2800|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2834|2842|Property|class|net.minecraftforge.common.config.Property|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2859|2865|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2866|2869|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2870|2883|Configuration|class|net.minecraftforge.common.config.Configuration|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2884|2900|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2944|2949|token|field|nl.thedutchmc.discordchatmod.DiscordChatMod|token
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2962|2971|getString|method|net.minecraftforge.common.config.Property|getString|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2980|2989|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3006|3015|getString|method|net.minecraftforge.common.config.Property|getString|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3043|3052|Exception|class|java.lang.Exception|false
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3082|3088|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3089|3099|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3110|3116|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
-      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3117|3121|save|method|net.minecraftforge.common.config.Configuration|save|()V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2570|2576|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2545|2555|syncConfig|method|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2556|2569|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2593|2599|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2600|2604|load|method|net.minecraftforge.common.config.Configuration|load|()V
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2612|2620|Property|class|net.minecraftforge.common.config.Property|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2633|2639|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2640|2643|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2644|2657|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2658|2674|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2708|2716|Property|class|net.minecraftforge.common.config.Property|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2733|2739|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2740|2743|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2744|2757|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2758|2774|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2813|2821|Property|class|net.minecraftforge.common.config.Property|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2847|2853|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2854|2857|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2858|2871|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2872|2888|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2958|2966|Property|class|net.minecraftforge.common.config.Property|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2992|2998|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|2999|3002|get|method|net.minecraftforge.common.config.Configuration|get|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraftforge/common/config/Property;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3003|3016|Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3017|3033|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3076|3081|token|field|nl.thedutchmc.discordchatmod.DiscordChatMod|token
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3094|3103|getString|method|net.minecraftforge.common.config.Property|getString|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3112|3121|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3138|3147|getString|method|net.minecraftforge.common.config.Property|getString|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3155|3173|whitelistChannelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|whitelistChannelId
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3199|3208|getString|method|net.minecraftforge.common.config.Property|getString|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3216|3234|enableWhitelisting|field|nl.thedutchmc.discordchatmod.DiscordChatMod|enableWhitelisting
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3260|3270|getBoolean|method|net.minecraftforge.common.config.Property|getBoolean|()Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3291|3300|Exception|class|java.lang.Exception|false
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3330|3336|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3337|3347|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3358|3364|config|param|nl.thedutchmc.discordchatmod.DiscordChatMod|syncConfig|(Lnet/minecraftforge/common/config/Configuration;)V|config|0
+      @|nl/thedutchmc/discordchatmod/DiscordChatMod.java|3365|3369|save|method|net.minecraftforge.common.config.Configuration|save|()V
    Method End: syncConfig(Lnet/minecraftforge/common/config/Configuration;)V
 Class End  : nl.thedutchmc.discordchatmod.DiscordChatMod
 endProcessing "nl/thedutchmc/discordchatmod/DiscordChatMod.java"
 
-startProcessing "nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java" md5: b35bdf2e976a566caa768a2ddd90c91c
+startProcessing "nl/thedutchmc/discordchatmod/DiscordListener.java" md5: aa83f9d9f84e6837af2c682f2fcbdb91
+@|nl/thedutchmc/discordchatmod/DiscordListener.java|8|36|nl.thedutchmc.discordchatmod|package|nl.thedutchmc.discordchatmod|(file)
+Class Start: nl.thedutchmc.discordchatmod.DiscordListener
+   @|nl/thedutchmc/discordchatmod/DiscordListener.java|473|488|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/DiscordListener.java|500|513|EventListener|class|net.dv8tion.jda.api.hooks.EventListener|false
+   Method Start: onEvent(Lnet/dv8tion/jda/api/events/GenericEvent;)V
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|566|571|event|param|nl.thedutchmc.discordchatmod.DiscordListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|522|530|Override|class|java.lang.Override|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|545|552|onEvent|method|net.dv8tion.jda.api.hooks.EventListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|553|565|GenericEvent|class|net.dv8tion.jda.api.events.GenericEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|585|590|event|param|nl.thedutchmc.discordchatmod.DiscordListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|602|622|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|630|636|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|648|668|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|670|675|event|param|nl.thedutchmc.discordchatmod.DiscordListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|677|686|getAuthor|method|net.dv8tion.jda.api.events.message.MessageReceivedEvent|getAuthor|()Lnet/dv8tion/jda/api/entities/User;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|689|696|getName|method|net.dv8tion.jda.api.entities.User|getName|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|704|710|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|723|743|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|745|750|event|param|nl.thedutchmc.discordchatmod.DiscordListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|752|762|getMessage|method|net.dv8tion.jda.api.events.message.MessageReceivedEvent|getMessage|()Lnet/dv8tion/jda/api/entities/Message;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|765|782|getContentDisplay|method|net.dv8tion.jda.api.entities.Message|getContentDisplay|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|797|817|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|819|824|event|param|nl.thedutchmc.discordchatmod.DiscordListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|826|835|getAuthor|method|net.dv8tion.jda.api.events.message.MessageReceivedEvent|getAuthor|()Lnet/dv8tion/jda/api/entities/User;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|838|843|isBot|method|net.dv8tion.jda.api.entities.User|isBot|()Z
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|860|879|GenericMessageEvent|class|net.dv8tion.jda.api.events.message.GenericMessageEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|881|886|event|param|nl.thedutchmc.discordchatmod.DiscordListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|888|898|getChannel|method|net.dv8tion.jda.api.events.message.GenericMessageEvent|getChannel|()Lnet/dv8tion/jda/api/entities/MessageChannel;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|901|906|getId|method|net.dv8tion.jda.api.entities.ISnowflake|getId|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|909|922|contentEquals|method|java.lang.String|contentEquals|(Ljava/lang/CharSequence;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|923|937|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|938|947|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|964|980|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|981|989|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|992|1018|getMinecraftServerInstance|method|net.minecraftforge.fml.common.FMLCommonHandler|getMinecraftServerInstance|()Lnet/minecraft/server/MinecraftServer;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1021|1034|getPlayerList|method|net.minecraft.server.MinecraftServer|getPlayerList|()Lnet/minecraft/server/management/PlayerList;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1037|1048|sendMessage|method|net.minecraft.server.management.PlayerList|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1053|1072|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1073|1087|TextFormatting|class|net.minecraft.util.text.TextFormatting|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1088|1092|BLUE|field|net.minecraft.util.text.TextFormatting|BLUE
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1104|1118|TextFormatting|class|net.minecraft.util.text.TextFormatting|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1119|1124|WHITE|field|net.minecraft.util.text.TextFormatting|WHITE
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1162|1182|MessageReceivedEvent|class|net.dv8tion.jda.api.events.message.MessageReceivedEvent|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1184|1189|event|param|nl.thedutchmc.discordchatmod.DiscordListener|onEvent|(Lnet/dv8tion/jda/api/events/GenericEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1191|1201|getChannel|method|net.dv8tion.jda.api.events.message.GenericMessageEvent|getChannel|()Lnet/dv8tion/jda/api/entities/MessageChannel;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1204|1209|getId|method|net.dv8tion.jda.api.entities.ISnowflake|getId|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1212|1225|contentEquals|method|java.lang.String|contentEquals|(Ljava/lang/CharSequence;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1226|1240|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1241|1259|whitelistChannelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|whitelistChannelId
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1281|1297|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1315|1329|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1330|1348|enableWhitelisting|field|nl.thedutchmc.discordchatmod.DiscordChatMod|enableWhitelisting
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1359|1375|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1376|1384|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1387|1413|getMinecraftServerInstance|method|net.minecraftforge.fml.common.FMLCommonHandler|getMinecraftServerInstance|()Lnet/minecraft/server/MinecraftServer;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1416|1430|commandManager|field|net.minecraft.server.MinecraftServer|commandManager
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1431|1445|executeCommand|method|net.minecraft.command.ICommandManager|executeCommand|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1446|1462|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1463|1471|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1474|1500|getMinecraftServerInstance|method|net.minecraftforge.fml.common.FMLCommonHandler|getMinecraftServerInstance|()Lnet/minecraft/server/MinecraftServer;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1539|1552|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1595|1609|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1610|1618|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1619|1625|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1629|1643|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1644|1662|whitelistChannelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|whitelistChannelId
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1689|1705|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|1725|1738|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2006|2020|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2021|2029|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2030|2036|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2040|2054|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2055|2073|whitelistChannelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|whitelistChannelId
+   Method End: onEvent(Lnet/dv8tion/jda/api/events/GenericEvent;)V
+   Method Start: sendToDiscord(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2144|2151|message|param|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V|message|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2157|2160|jda|param|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V|jda|1
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2169|2176|channel|param|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V|channel|2
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2123|2136|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2137|2143|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2153|2156|JDA|class|net.dv8tion.jda.api.JDA|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2162|2168|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2183|2186|jda|param|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V|jda|1
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2187|2205|getTextChannelById|method|net.dv8tion.jda.api.JDA|getTextChannelById|(Ljava/lang/String;)Lnet/dv8tion/jda/api/entities/TextChannel;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2206|2213|channel|param|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V|channel|2
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2215|2226|sendMessage|method|net.dv8tion.jda.api.entities.MessageChannel|sendMessage|(Ljava/lang/CharSequence;)Lnet/dv8tion/jda/api/requests/restaction/MessageAction;
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2227|2234|message|param|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V|message|0
+      @|nl/thedutchmc/discordchatmod/DiscordListener.java|2236|2241|queue|method|net.dv8tion.jda.api.requests.RestAction|queue|()V
+   Method End: sendToDiscord(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+Class End  : nl.thedutchmc.discordchatmod.DiscordListener
+endProcessing "nl/thedutchmc/discordchatmod/DiscordListener.java"
+
+startProcessing "nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java" md5: d2425f4bd7b41bce71b7dc3e33ac9f12
 @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|8|43|nl.thedutchmc.discordchatmod.events|package|nl.thedutchmc.discordchatmod.events|(file)
 Class Start: nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|377|399|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|400|405|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|440|459|EventPlayerLoggedIn|class|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|474|477|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|474|477|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|478|481|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|jda|
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|484|498|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|499|507|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|508|514|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|527|537|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|527|537|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|538|540|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|db|
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|543|557|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|558|566|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|567|572|getDb|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDb|()Lnl/thedutchmc/discordchatmod/DiscordBot;
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|382|404|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|405|410|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|445|464|EventPlayerLoggedIn|class|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|479|482|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|479|482|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|483|486|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|jda|
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|489|503|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|504|512|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|513|519|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|532|547|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|532|547|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|548|550|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|db|
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|553|567|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|568|576|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|577|582|getDl|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDl|()Lnl/thedutchmc/discordchatmod/DiscordListener;
    Method Start: playerLoggedInEvent(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|658|663|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|playerLoggedInEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|582|596|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|618|637|playerLoggedInEvent|method|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|playerLoggedInEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|638|657|PlayerLoggedInEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent|false
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|670|672|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|db
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|673|686|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|712|717|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|playerLoggedInEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|718|724|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|725|732|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|761|764|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|jda
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|668|673|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|playerLoggedInEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|592|606|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|628|647|playerLoggedInEvent|method|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|playerLoggedInEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|648|667|PlayerLoggedInEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent|false
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|680|682|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|db
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|683|696|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|722|727|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|playerLoggedInEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|728|734|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|735|742|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|771|774|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn|jda
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|776|790|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java|791|800|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
    Method End: playerLoggedInEvent(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V
 Class End  : nl.thedutchmc.discordchatmod.events.EventPlayerLoggedIn
 endProcessing "nl/thedutchmc/discordchatmod/events/EventPlayerLoggedIn.java"
 
-startProcessing "nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java" md5: 364f8dfab2248d42b71be2d606e739ec
+startProcessing "nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java" md5: 5bb6b4ebb993893ec9b9b3e31bbbebbb
 @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|8|43|nl.thedutchmc.discordchatmod.events|package|nl.thedutchmc.discordchatmod.events|(file)
 Class Start: nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|378|400|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|401|406|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|441|461|EventPlayerLoggedOut|class|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|476|479|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|476|479|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|480|483|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|jda|
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|486|500|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|501|509|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|510|516|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|529|539|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|529|539|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|540|542|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|db|
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|545|559|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|560|568|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
-   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|569|574|getDb|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDb|()Lnl/thedutchmc/discordchatmod/DiscordBot;
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|383|405|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|406|411|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|446|466|EventPlayerLoggedOut|class|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|481|484|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|481|484|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|485|488|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|jda|
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|491|505|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|506|514|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|515|521|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|534|549|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|534|549|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|550|552|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|db|
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|555|569|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|570|578|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+   @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|579|584|getDl|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDl|()Lnl/thedutchmc/discordchatmod/DiscordListener;
    Method Start: playerLoggedOutEvent(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|662|667|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|playerLoggedOutEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|584|598|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|620|640|playerLoggedOutEvent|method|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|playerLoggedOutEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|641|661|PlayerLoggedOutEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedOutEvent|false
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|674|676|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|db
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|677|690|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|717|722|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|playerLoggedOutEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|723|729|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|730|737|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|764|767|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|jda
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|672|677|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|playerLoggedOutEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|594|608|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|630|650|playerLoggedOutEvent|method|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|playerLoggedOutEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|651|671|PlayerLoggedOutEvent|class|net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedOutEvent|false
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|684|686|db|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|db
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|687|700|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|727|732|event|param|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|playerLoggedOutEvent|(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|733|739|player|field|net.minecraftforge.fml.common.gameevent.PlayerEvent|player
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|740|747|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|774|777|jda|field|nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut|jda
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|779|793|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java|794|803|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
    Method End: playerLoggedOutEvent(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
 Class End  : nl.thedutchmc.discordchatmod.events.EventPlayerLoggedOut
 endProcessing "nl/thedutchmc/discordchatmod/events/EventPlayerLoggedOut.java"
 
-startProcessing "nl/thedutchmc/discordchatmod/events/EventServerChat.java" md5: bc5893dea1b7a3501f2c029919436bac
+startProcessing "nl/thedutchmc/discordchatmod/events/EventServerChat.java" md5: 6038e0b9f41145ff725f2b84fb4179b4
 @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|8|43|nl.thedutchmc.discordchatmod.events|package|nl.thedutchmc.discordchatmod.events|(file)
 Class Start: nl.thedutchmc.discordchatmod.events.EventServerChat
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|346|368|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|369|374|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|409|424|EventServerChat|class|nl.thedutchmc.discordchatmod.events.EventServerChat|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|439|442|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|439|442|JDA|class|net.dv8tion.jda.api.JDA|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|443|446|jda|field|nl.thedutchmc.discordchatmod.events.EventServerChat|jda|
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|449|463|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|464|472|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|473|479|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|492|502|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|492|502|DiscordBot|class|nl.thedutchmc.discordchatmod.DiscordBot|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|503|505|db|field|nl.thedutchmc.discordchatmod.events.EventServerChat|db|
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|508|522|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|523|531|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
-   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|532|537|getDb|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDb|()Lnl/thedutchmc/discordchatmod/DiscordBot;
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|351|373|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|374|379|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|414|429|EventServerChat|class|nl.thedutchmc.discordchatmod.events.EventServerChat|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|444|447|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|444|447|JDA|class|net.dv8tion.jda.api.JDA|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|448|451|jda|field|nl.thedutchmc.discordchatmod.events.EventServerChat|jda|
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|454|468|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|469|477|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|478|484|getJda|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getJda|()Lnet/dv8tion/jda/api/JDA;
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|497|512|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|497|512|DiscordListener|class|nl.thedutchmc.discordchatmod.DiscordListener|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|513|515|db|field|nl.thedutchmc.discordchatmod.events.EventServerChat|db|
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|518|532|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|533|541|instance|field|nl.thedutchmc.discordchatmod.DiscordChatMod|instance
+   @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|542|547|getDl|method|nl.thedutchmc.discordchatmod.DiscordChatMod|getDl|()Lnl/thedutchmc/discordchatmod/DiscordListener;
    Method Start: serverChatEvent(Lnet/minecraftforge/event/ServerChatEvent;)V
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|615|620|event|param|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|547|561|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|583|598|serverChatEvent|method|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|599|614|ServerChatEvent|class|net.minecraftforge.event.ServerChatEvent|false
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|627|633|String|class|java.lang.String|false
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|644|649|event|param|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|650|660|getMessage|method|net.minecraftforge.event.ServerChatEvent|getMessage|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|663|671|toString|method|java.lang.Object|toString|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|678|684|String|class|java.lang.String|false
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|694|699|event|param|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V|event|0
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|700|709|getPlayer|method|net.minecraftforge.event.ServerChatEvent|getPlayer|()Lnet/minecraft/entity/player/EntityPlayerMP;
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|712|719|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|726|732|System|class|java.lang.System|false
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|733|736|out|field|java.lang.System|out
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|737|744|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|762|764|db|field|nl.thedutchmc.discordchatmod.events.EventServerChat|db
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|765|778|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordBot|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;)V
-      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|814|817|jda|field|nl.thedutchmc.discordchatmod.events.EventServerChat|jda
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|625|630|event|param|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|557|571|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|593|608|serverChatEvent|method|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|609|624|ServerChatEvent|class|net.minecraftforge.event.ServerChatEvent|false
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|637|643|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|654|659|event|param|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|660|670|getMessage|method|net.minecraftforge.event.ServerChatEvent|getMessage|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|673|681|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|688|694|String|class|java.lang.String|false
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|704|709|event|param|nl.thedutchmc.discordchatmod.events.EventServerChat|serverChatEvent|(Lnet/minecraftforge/event/ServerChatEvent;)V|event|0
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|710|719|getPlayer|method|net.minecraftforge.event.ServerChatEvent|getPlayer|()Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|722|729|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|736|742|System|class|java.lang.System|false
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|743|746|out|field|java.lang.System|out
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|747|754|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|772|774|db|field|nl.thedutchmc.discordchatmod.events.EventServerChat|db
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|775|788|sendToDiscord|method|nl.thedutchmc.discordchatmod.DiscordListener|sendToDiscord|(Ljava/lang/String;Lnet/dv8tion/jda/api/JDA;Ljava/lang/String;)V
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|824|827|jda|field|nl.thedutchmc.discordchatmod.events.EventServerChat|jda
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|829|843|DiscordChatMod|class|nl.thedutchmc.discordchatmod.DiscordChatMod|false
+      @|nl/thedutchmc/discordchatmod/events/EventServerChat.java|844|853|channelId|field|nl.thedutchmc.discordchatmod.DiscordChatMod|channelId
    Method End: serverChatEvent(Lnet/minecraftforge/event/ServerChatEvent;)V
 Class End  : nl.thedutchmc.discordchatmod.events.EventServerChat
 endProcessing "nl/thedutchmc/discordchatmod/events/EventServerChat.java"

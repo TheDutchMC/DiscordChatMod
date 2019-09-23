@@ -26,8 +26,10 @@ public class DiscordChatMod {
 	
 	private static String token = "";
 	public static String channelId = "";
+	public static String whitelistChannelId = "";
 	private JDA jda;
-	DiscordBot db = new DiscordBot();
+	DiscordListener dl = new DiscordListener();	
+	public static boolean enableWhitelisting = false;
 	
 	public DiscordChatMod() throws NoSuchFieldException, IllegalAccessException {
 		Field field = LaunchClassLoader.class.getDeclaredField("classLoaderExceptions");
@@ -46,40 +48,32 @@ public class DiscordChatMod {
 		return jda;
 	}
 	
-	public DiscordBot getDb() {
-		return db;
+	public DiscordListener getDl() {
+		return dl;
 	}
-	
-	final CommonProxy commonProxy = new CommonProxy();
-	
+		
 	@Mod.Instance
 	public static DiscordChatMod instance;
 	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		commonProxy.preInit(event);
 		
 		Configuration config = new Configuration(event.getSuggestedConfigurationFile());
 		syncConfig(config);
-		
-		System.out.println("TOKEN: " + token);
-		System.out.println("CHANNELID: " + channelId);
 		try {
 			jda = new JDABuilder(token).build();
 		} catch (LoginException e) {
 			e.printStackTrace();
 		}
-		jda.addEventListener(db);
+		jda.addEventListener(dl);
 	}
 	
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
-		commonProxy.init(event);
 	}
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		commonProxy.postInit(event);
 	}
 	
 	public static void syncConfig(Configuration config) {
@@ -87,11 +81,14 @@ public class DiscordChatMod {
 			config.load();
 			Property tokenProp = config.get(Configuration.CATEGORY_GENERAL, "token", "BOT TOKEN HERE");
 			Property channelIdProp = config.get(Configuration.CATEGORY_GENERAL, "channelId", "CHANNEL ID HERE");
+			Property whitelistChannelIdProp = config.get(Configuration.CATEGORY_GENERAL, "whitelistChannelId", "CHANNEL ID FOR WHITELIST CHANNEL HERE");
+			Property enableWhitelistingProp = config.get(Configuration.CATEGORY_GENERAL, "enableWhitelisting", "false");
 			
 			token = tokenProp.getString(); 
 			channelId = channelIdProp.getString();
+			whitelistChannelId = whitelistChannelIdProp.getString();
+			enableWhitelisting = enableWhitelistingProp.getBoolean();
 			
-					
 		} catch (Exception e) {
 
 		} finally {
