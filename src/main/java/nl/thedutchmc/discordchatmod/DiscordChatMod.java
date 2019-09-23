@@ -25,11 +25,14 @@ public class DiscordChatMod {
 	public static final String MODVERSION = "0.0.1";
 	
 	private static String token = "";
-	public static String channelId = "";
-	public static String whitelistChannelId = "";
+	public static String chatLinkChannelId = "";
+	public static String botCommandChannelId = "";
+	public static String commandPrefix = "";
+	
 	private JDA jda;
 	DiscordListener dl = new DiscordListener();	
-	public static boolean enableWhitelisting = false;
+	
+	public static boolean enableWhitelisting, restrictBotCommandsToChannel;
 	
 	public DiscordChatMod() throws NoSuchFieldException, IllegalAccessException {
 		Field field = LaunchClassLoader.class.getDeclaredField("classLoaderExceptions");
@@ -80,14 +83,18 @@ public class DiscordChatMod {
 		try {
 			config.load();
 			Property tokenProp = config.get(Configuration.CATEGORY_GENERAL, "token", "BOT TOKEN HERE");
-			Property channelIdProp = config.get(Configuration.CATEGORY_GENERAL, "channelId", "CHANNEL ID HERE");
-			Property whitelistChannelIdProp = config.get(Configuration.CATEGORY_GENERAL, "whitelistChannelId", "CHANNEL ID FOR WHITELIST CHANNEL HERE");
+			Property chatLinkChannelIdProp = config.get(Configuration.CATEGORY_GENERAL, "chatLinkChannelId", "CHAT LINK CHAHNEL ID HERE");
+			Property botCommandChannelIdProp = config.get(Configuration.CATEGORY_GENERAL, "botCommandChannelId", "CHANNEL ID FOR BOT COMMANDS CHANNEL HERE");
 			Property enableWhitelistingProp = config.get(Configuration.CATEGORY_GENERAL, "enableWhitelisting", "false");
+			Property restrictBotCommandsToChannelProp = config.get(Configuration.CATEGORY_GENERAL, "restrictBotCommandsToChannel", "true");
+			Property commandPrefixProp = config.get(Configuration.CATEGORY_GENERAL, "commandPrefix", "&");
 			
 			token = tokenProp.getString(); 
-			channelId = channelIdProp.getString();
-			whitelistChannelId = whitelistChannelIdProp.getString();
+			chatLinkChannelId = chatLinkChannelIdProp.getString();
+			botCommandChannelId = botCommandChannelIdProp.getString();
 			enableWhitelisting = enableWhitelistingProp.getBoolean();
+			restrictBotCommandsToChannel = restrictBotCommandsToChannelProp.getBoolean();
+			commandPrefix = commandPrefixProp.getString();
 			
 		} catch (Exception e) {
 

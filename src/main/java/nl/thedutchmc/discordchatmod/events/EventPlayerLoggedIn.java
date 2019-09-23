@@ -15,6 +15,6 @@ public class EventPlayerLoggedIn {
 	
 	@SubscribeEvent
 	public static void playerLoggedInEvent(PlayerLoggedInEvent event) {
-		db.sendToDiscord(":heavy_plus_sign: **" + event.player.getName() + "** joined the server", jda, DiscordChatMod.channelId);
+		db.sendToDiscord(":heavy_plus_sign: **" + event.player.getName() + "** joined the server", jda, DiscordChatMod.chatLinkChannelId);
 	}
 }

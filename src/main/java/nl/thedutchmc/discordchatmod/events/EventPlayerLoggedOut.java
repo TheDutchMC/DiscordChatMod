@@ -15,7 +15,7 @@ public class EventPlayerLoggedOut {
 	
 	@SubscribeEvent
 	public static void playerLoggedOutEvent(PlayerLoggedOutEvent event) {
-		db.sendToDiscord(":heavy_minus_sign: **" + event.player.getName() + "** left the server", jda, DiscordChatMod.channelId);
+		db.sendToDiscord(":heavy_minus_sign: **" + event.player.getName() + "** left the server", jda, DiscordChatMod.chatLinkChannelId);
 
 	}
 }

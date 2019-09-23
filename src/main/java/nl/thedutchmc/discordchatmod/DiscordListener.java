@@ -18,16 +18,27 @@ public class DiscordListener implements EventListener {
 			String sender = ((MessageReceivedEvent) event).getAuthor().getName();
 			String message = ((MessageReceivedEvent) event).getMessage().getContentDisplay();
 			if(!(((MessageReceivedEvent) event).getAuthor().isBot())) {
-				if(((GenericMessageEvent) event).getChannel().getId().contentEquals(DiscordChatMod.channelId)) {
-			        FMLCommonHandler.instance().getMinecraftServerInstance().getPlayerList().sendMessage(new TextComponentString(TextFormatting.BLUE + sender + TextFormatting.WHITE + ": " + message));
-				} else if(((MessageReceivedEvent) event).getChannel().getId().contentEquals(DiscordChatMod.whitelistChannelId)) {
-					if(message.equalsIgnoreCase("!whitelist") && DiscordChatMod.enableWhitelisting) {
+				if(((GenericMessageEvent) event).getChannel().getId().contentEquals(DiscordChatMod.chatLinkChannelId)) {
+			        FMLCommonHandler.instance().getMinecraftServerInstance().getPlayerList().sendMessage(new TextComponentString(TextFormatting.BLUE + sender + TextFormatting.WHITE + ": " + message));	
+				} if(DiscordChatMod.restrictBotCommandsToChannel) {
+					if(((MessageReceivedEvent) event).getChannel().getId().contentEquals(DiscordChatMod.botCommandChannelId)) {
+						if(message.equalsIgnoreCase(DiscordChatMod.commandPrefix + "whitelist") && DiscordChatMod.enableWhitelisting) {
+							FMLCommonHandler.instance().getMinecraftServerInstance().commandManager.executeCommand(FMLCommonHandler.instance().getMinecraftServerInstance(), "whitelist add " + sender);
+							sendToDiscord("Added " + sender + " to the whitelist!", DiscordChatMod.instance.getJda(), ((MessageReceivedEvent) event).getChannel().getId());
+						} else if(message.equalsIgnoreCase(DiscordChatMod.commandPrefix + "help")) {
+							sendToDiscord("**Help Page:**\n"
+										+ "> **!whitelist**: Add yourself to the whitelist, the command uses your **discord nickname**, so make sure it is the same as your in-game name! This only works if it is enabled in config!\n"
+										+ "> **!help**: Gives this page.", DiscordChatMod.instance.getJda(), ((MessageReceivedEvent) event).getChannel().getId());
+						}
+					}
+				} else {
+					if(message.equalsIgnoreCase(DiscordChatMod.commandPrefix + "whitelist") && DiscordChatMod.enableWhitelisting) {
 						FMLCommonHandler.instance().getMinecraftServerInstance().commandManager.executeCommand(FMLCommonHandler.instance().getMinecraftServerInstance(), "whitelist add " + sender);
-						sendToDiscord("Added " + sender + " to the whitelist!", DiscordChatMod.instance.getJda(), DiscordChatMod.whitelistChannelId);
-					} else if(message.equalsIgnoreCase("!help")) {
+						sendToDiscord("Added " + sender + " to the whitelist!", DiscordChatMod.instance.getJda(), ((MessageReceivedEvent) event).getChannel().getId());
+					} else if(message.equalsIgnoreCase(DiscordChatMod.commandPrefix + "help")) {
 						sendToDiscord("**Help Page:**\n"
 									+ "> **!whitelist**: Add yourself to the whitelist, the command uses your **discord nickname**, so make sure it is the same as your in-game name! This only works if it is enabled in config!\n"
-									+ "> **!help**: Gives this page.", DiscordChatMod.instance.getJda(), DiscordChatMod.whitelistChannelId);
+									+ "> **!help**: Gives this page.", DiscordChatMod.instance.getJda(), ((MessageReceivedEvent) event).getChannel().getId());
 					}
 				}
 			}
