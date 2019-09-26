@@ -19,7 +19,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 mainClassName = 'nl.thedutchmc.discordchamod.DiscordChatMod'
 
-version = "1.0"
+version = "1.2.1"
 group = "nl.thedutchmc.discordchatmod.DiscordChatMod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "discordchatmod"
 

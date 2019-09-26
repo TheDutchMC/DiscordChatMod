@@ -17,7 +17,6 @@ public class EventServerChat {
 	public static void serverChatEvent(ServerChatEvent event) {
 		String message = event.getMessage().toString();
 		String author = event.getPlayer().getName();
-		System.out.println("ChatEvent");
 		db.sendToDiscord("[**"+ author + "**]: " + message, jda, DiscordChatMod.chatLinkChannelId);
 	}
 }

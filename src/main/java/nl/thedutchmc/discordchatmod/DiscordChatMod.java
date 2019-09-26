@@ -16,18 +16,21 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartedEvent;
+import net.minecraftforge.fml.common.event.FMLServerStoppingEvent;
 
 @Mod(modid = DiscordChatMod.MODID, name = DiscordChatMod.MODNAME, version = DiscordChatMod.MODVERSION, acceptableRemoteVersions = "*")
 public class DiscordChatMod {
 
 	public static final String MODID = "discordchatmod";
 	public static final String MODNAME = "DiscordChatMod";
-	public static final String MODVERSION = "0.0.1";
+	public static final String MODVERSION = "1.2.1";
 	
 	private static String token = "";
 	public static String chatLinkChannelId = "";
 	public static String botCommandChannelId = "";
 	public static String commandPrefix = "";
+	public static String whitelistRoleId = "";
 	
 	private JDA jda;
 	DiscordListener dl = new DiscordListener();	
@@ -79,6 +82,16 @@ public class DiscordChatMod {
 	public void postInit(FMLPostInitializationEvent event) {
 	}
 	
+	@Mod.EventHandler
+	public void serverStopping(FMLServerStoppingEvent event) {
+		dl.sendToDiscord(":octagonal_sign: Server stopped!", jda, chatLinkChannelId);
+	}
+	
+	@Mod.EventHandler
+	public void serverStarted(FMLServerStartedEvent event) {
+		dl.sendToDiscord(":white_check_mark: Server started!", jda, chatLinkChannelId);
+	}
+	
 	public static void syncConfig(Configuration config) {
 		try {
 			config.load();
@@ -88,6 +101,7 @@ public class DiscordChatMod {
 			Property enableWhitelistingProp = config.get(Configuration.CATEGORY_GENERAL, "enableWhitelisting", "false");
 			Property restrictBotCommandsToChannelProp = config.get(Configuration.CATEGORY_GENERAL, "restrictBotCommandsToChannel", "true");
 			Property commandPrefixProp = config.get(Configuration.CATEGORY_GENERAL, "commandPrefix", "&");
+			Property whitelistRoleIdProp = config.get(Configuration.CATEGORY_GENERAL, "whitelistRoleId", "WHITELIST ROLE ID");
 			
 			token = tokenProp.getString(); 
 			chatLinkChannelId = chatLinkChannelIdProp.getString();
@@ -95,6 +109,7 @@ public class DiscordChatMod {
 			enableWhitelisting = enableWhitelistingProp.getBoolean();
 			restrictBotCommandsToChannel = restrictBotCommandsToChannelProp.getBoolean();
 			commandPrefix = commandPrefixProp.getString();
+			whitelistRoleId = whitelistRoleIdProp.getString();
 			
 		} catch (Exception e) {
 
