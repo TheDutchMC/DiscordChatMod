@@ -24,7 +24,7 @@ public class DiscordChatMod {
 
 	public static final String MODID = "discordchatmod";
 	public static final String MODNAME = "DiscordChatMod";
-	public static final String MODVERSION = "1.2.1";
+	public static final String MODVERSION = "1.2.2";
 	
 	private static String token = "";
 	public static String chatLinkChannelId = "";

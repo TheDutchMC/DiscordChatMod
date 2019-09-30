@@ -15,9 +15,8 @@ public class EventCommand {
 	static DiscordListener db = DiscordChatMod.instance.getDl();
 
 	@SubscribeEvent(priority = EventPriority.HIGHEST)
-	public void commandEvent(CommandEvent event) {
+	public static void commandEvent(CommandEvent event) {
 		
-		System.out.println("CommandEvent");
 		String name = event.getCommand().getName();
 		if(name.equalsIgnoreCase("say")) {
 			String[] commandArgs = event.getParameters();
@@ -28,7 +27,7 @@ public class EventCommand {
 			
             message.substring(0, message.length() - 1);
             
-    		db.sendToDiscord("[" + event.getSender().getName() + "] " + message, jda, DiscordChatMod.chatLinkChannelId);
+    		db.sendToDiscord("**[" + event.getSender().getName() + "]** " + message, jda, DiscordChatMod.chatLinkChannelId);
 
 		}
 	}
